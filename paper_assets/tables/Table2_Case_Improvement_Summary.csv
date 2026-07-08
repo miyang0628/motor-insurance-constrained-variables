@@ -1,0 +1,4 @@
+Case,Dataset,Baseline_AUC_range,Best_AUC,Improvement,Driver
+A,fremotor2freq9907b,0.7664-0.7686,0.7919,0.0233,Aggregate claim-history features (elapsed time alone contributed <0.001)
+B,car_insurance,0.8875,0.8894,0.0019,Demographics alone already strong (DRIVING_EXPERIENCE dominant); behavioral history adds little
+C,freMTPL2,0.6788,0.7077,0.0289,Single compressed history variable (BonusMalus)

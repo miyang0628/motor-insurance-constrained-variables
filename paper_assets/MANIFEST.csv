@@ -1,0 +1,24 @@
+filename,type,description,source_notebook
+Fig_SHAP_CaseA_bar.png,figure,Case A (LightGBM-Aggregate) SHAP feature importance (bar),09
+Fig_SHAP_CaseA_beeswarm.png,figure,Case A (LightGBM-Aggregate) SHAP summary (beeswarm),09
+Fig_SHAP_CaseB_bar.png,figure,Case B (LightGBM-Full) SHAP feature importance (bar),09
+Fig_SHAP_CaseB_beeswarm.png,figure,Case B (LightGBM-Full) SHAP summary (beeswarm),09
+Fig_SHAP_CaseC_bar.png,figure,Case C (LightGBM-BonusMalus) SHAP feature importance (bar),09
+Fig_SHAP_CaseC_beeswarm.png,figure,Case C (LightGBM-BonusMalus) SHAP summary (beeswarm),09
+Fig_Fairness_CaseA_VehType.png,figure,Case A fairness audit — TPR/FPR by VehType proxy cohort,10
+Fig_Fairness_CaseB_GenderRace.png,figure,Case B fairness audit — TPR/FPR by GENDER and RACE,11
+Table_Fairness_CaseA_VehType.csv,table,Case A fairness metrics by VehType (all 16 groups),10
+Table_Fairness_CaseB_Gender.csv,table,Case B fairness metrics by GENDER,11
+Table_Fairness_CaseB_Race.csv,table,Case B fairness metrics by RACE,11
+Table_Calibration_CaseB_Gender.csv,table,Case B calibration by GENDER and probability bin,11
+Table_Calibration_CaseB_Race.csv,table,Case B calibration by RACE and probability bin,11
+Table1_Master_Results.csv,table,Master results table — all 10 models across 3 Cases (AUC),"03a-08b, assembled"
+Table2_Case_Improvement_Summary.csv,table,Case-level baseline-to-best improvement and driver (§4.4),assembled
+Fig1_CaseA_Architecture_FeatureSet_Grid.png,figure,"Case A AUC heatmap — Architecture x Feature Set (2x3 grid, §4.1)",assembled
+Fig2_CrossCase_Improvement.png,figure,Cross-Case AUC improvement bar chart (§4.4),assembled
+Table_FeatureImportance_CaseA_LightGBM_Aggregate.csv,table,Case A (③c LightGBM-Aggregate) feature importance (gain),regenerated from saved model
+Fig_FeatureImportance_CaseA_LightGBM_Aggregate.png,figure,Case A (③c LightGBM-Aggregate) feature importance (gain),regenerated from saved model
+Table_FeatureImportance_CaseB_LightGBM_Full.csv,table,Case B (B2 LightGBM-Full) feature importance (gain),regenerated from saved model
+Fig_FeatureImportance_CaseB_LightGBM_Full.png,figure,Case B (B2 LightGBM-Full) feature importance (gain),regenerated from saved model
+Table_FeatureImportance_CaseC_LightGBM_BonusMalus.csv,table,Case C (C2 LightGBM-BonusMalus) feature importance (gain),regenerated from saved model
+Fig_FeatureImportance_CaseC_LightGBM_BonusMalus.png,figure,Case C (C2 LightGBM-BonusMalus) feature importance (gain),regenerated from saved model

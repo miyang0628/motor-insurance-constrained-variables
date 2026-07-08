@@ -1,0 +1,3 @@
+Feature_Set,LightGBM_AUC,MLP_AUC
+Static only,0.6788,0.6672
+Static+BonusMalus,0.7077,0.6907

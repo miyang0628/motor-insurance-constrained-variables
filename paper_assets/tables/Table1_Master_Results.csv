@@ -1,0 +1,11 @@
+Case,Model_ID,Model,Architecture,Feature_Set,AUC
+A,①,LightGBM-Static,LightGBM,Static only,0.7686
+A,②,LightGBM-Longitudinal,LightGBM,Static+YearGap,0.7689
+A,③c,LightGBM-Aggregate,LightGBM,Static+YearGap+Agg,0.7919
+A,③,Transformer-Static,Transformer,Static only,0.7664
+A,④,Transformer-Longitudinal,Transformer,Static+YearGap,0.7669
+A,④b,Transformer-Aggregate,Transformer,Static+YearGap+Agg,0.7914
+B,B1,LightGBM-Demographic,LightGBM,Demographics only,0.8875
+B,B2,LightGBM-Full,LightGBM,Demographics+Behav,0.8894
+C,C1,LightGBM-Static,LightGBM,Static only,0.6788
+C,C2,LightGBM-BonusMalus,LightGBM,Static+BonusMalus,0.7077
