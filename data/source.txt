@@ -1,0 +1,20 @@
+Data Sources
+Case A — fremotor2freq9907b
+
+Distributor: CASdatasets (R package)
+Repository URL: https://dutangc.perso.math.cnrs.fr/RRepository/pub/
+Access method: install via R with install.packages("CASdatasets", repos = "https://dutangc.perso.math.cnrs.fr/RRepository/pub/", type = "source"), then load with data(fremotor2freq9907b)
+
+Case B — car_insurance
+
+Distributor: Kaggle
+Dataset identifier: sagnik1511/car-insurance-data
+URL: https://www.kaggle.com/datasets/sagnik1511/car-insurance-data
+Access method: Kaggle API (kaggle.api.dataset_download_files), requires a kaggle.json credential file
+
+Case C — freMTPL2
+
+Distributor: HuggingFace (mirror of the CASdatasets French motor third-party liability dataset)
+Dataset identifier: mabilton/fremtpl2
+URL: https://huggingface.co/datasets/mabilton/fremtpl2
+Access method: load_dataset("mabilton/fremtpl2", "freMTPL2freq") and load_dataset("mabilton/fremtpl2", "freMTPL2sev") via the HuggingFace datasets library
